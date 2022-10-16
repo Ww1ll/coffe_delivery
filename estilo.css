@@ -1,0 +1,92 @@
+* {
+    font-family: 'Roboto';
+}
+
+.titulo {
+    margin-top: 1%;
+} 
+
+.ul_menu {
+    margin-top: 20%;
+
+}
+
+#botao {
+    background-color: #ffffff;
+    width: 200px;
+    height: 50px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    transition: 0.15s;
+
+}
+
+#botao:hover {
+    background-color: #e9be30;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+textarea, input, select, fieldset {
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+#li_menu{
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: #252422;
+    transition: 0.15s;
+    
+}
+
+#li_menu:hover {
+    background-color: #e9be30;
+    cursor: pointer;
+    color: #252422;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cabecalho {
+    background-color: #252422;
+    color: #e2e2e2;
+    font-size: larger;
+}
+
+table {
+    border: 1px #252422;
+}
+
+
+.list {
+    transition: 0.15s;
+}
+
+.list:hover {
+    background-color: #e9be30;
+    cursor:pointer;
+    color: #252422;
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.sobre {
+    margin-left: 5%;
+}

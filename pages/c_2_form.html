@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>89 Coffee Station</h1>
+    </center>
+
+    <form name="frm_cadastro">
+        <fieldset>
+            <legend>Endereço de entrega</legend>
+
+            <select name="endereco-entrega" id="endereco-entrega">
+                <option value="1">
+                    <span>Travessa Marcílio Dias, 526 - Santa Maria, Santo André</span>
+                </option>
+                <option value="2">
+                    <span>Avenida Capuava, 333 - Vila Homero Thon, Santo André</span>
+                </option>
+                <option value="3">
+                    <span>Rua Antônio Correia, 617 - Vila Guaraciaba, Santo André</span>
+                </option>
+                <option value="4">
+                    <span>Rua Safira, 706 - Jardim Itapark, Mauá</span>
+                </option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Itens do Pedido</legend>
+            <ul>
+                <li><input type="checkbox" name="item_1" id="item_1"><label for="item_1">Capuccino</label></li>
+                <li><input type="checkbox" name="item_2" id="item_2">Café Expresso</li>
+                <li><input type="checkbox" name="item_3" id="item_3">Frapuccino</li>
+                <li><input type="checkbox" name="item_4" id="item_4">Café Gelado</li>
+                <li><input type="checkbox" name="item_5" id="item_5">Café com Canela</li>
+            </ul>
+            <hr>
+
+            <span>Observações</span>
+            <br>
+            <textarea cols="50" rows="10" placeholder="Café sem açúcar por favor"></textarea>
+        </fieldset>
+        <p>
+            <center>
+                <input id="botao" type="submit" value="Enviar Pedido">&nbsp;&nbsp;
+                <input id="botao" type="reset" value="Limpar">&nbsp;&nbsp;
+            </center>
+    </form>
+    </b>
+</body>
+</html>

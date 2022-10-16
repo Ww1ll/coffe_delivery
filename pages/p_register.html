@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo.css">
+    <script src="../script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <img src="images/coffee.png" height="200" width="200">
+        <h1>Cadastro</h1>
+    </center>
+
+    <form name="frm_cadastro">
+        <fieldset>
+            <legend>Cadastrar novo endereço</legend>
+
+            <b>Logradouro:</b>
+            <input type="text" name="logradouro_txt" placeholder="Rua Ibitinga" value="" size="25" maxlength="60" required>
+            &nbsp;
+
+            <b>Número:</b>
+            <input type="text" name="numero_txt" placeholder="123" value="" size="5" maxlength="60" required>
+            <hr>
+
+            <b>Bairro:</b>
+            <input type="text" name="bairro_txt" placeholder="Jardim Alvorada" value="" size="20" maxlength="60" required>
+            &nbsp;
+
+            <b>Cidade:</b>
+            <select name="cidades">
+                <option value="SA">Santo André</option>
+                <option value="SBC">São Bernardo do Campo</option>
+                <option value="SCS">Sao Caetano do Sul</option>
+                <option value="MA">Mauá</option>
+            </select>
+            <hr>
+
+            <b>Telefone:</b>
+            <input type="text" name="telefone_txt" placeholder="+55(XX)XXXX-XXXX" value="" size="20" maxlength="60" required>
+            &nbsp;
+
+            <b>Email:</b>
+            <input type="text" name="email_txt" placeholder="XXXXX@gmail.com" value="" size="20" maxlength="60" required>
+            <hr>
+
+
+            <b>Observações:</b>
+            <br>
+            <textarea name="observacoes" id="observacoes" cols="30" rows="10" placeholder="Próximo a campo de futebol"></textarea>
+            <hr>
+
+            <b>Meio de pagamento:</b>
+            <select name="pagamento">
+                <option value="Pix">Pix</option>
+                <option value="Credito">Crédito</option>
+                <option value="Debito">Débito</option>
+                <option value="Dinheiro">Dinheiro</option>
+            </select>
+            <hr>
+
+        </fieldset>
+        <br>
+
+        <center>
+            <input id="botao" type="button" name="btn_registrar" value="Registrar novo endereço" onclick="registrar()">&nbsp;&nbsp;
+            <input id="botao" type="button" name="btn_limpar" value="Limpar" onclick="limpar()">&nbsp;&nbsp;
+        </center>
+    </form>
+    </b>
+</body>
+</html>
